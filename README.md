@@ -64,7 +64,7 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 ### Main Page
 
 <p align = "center">
-  <img src = "https://github.com/patprem/AgricultureApp/blob/f7f9adca00eaa60b5d157a268b721d1b3061f382/images/fig1.png" width = 400 height = 400>
+  <img src = "https://github.com/patprem/AgricultureApp/blob/f7f9adca00eaa60b5d157a268b721d1b3061f382/images/fig1.png" width = 500 height = 400>
 </p>
 
 * Home Page.
