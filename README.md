@@ -158,7 +158,7 @@ If you like this project and interested to contribute:
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-The codes used in this project borrows from Monash University and rewritten to incorporate into my project.
+The codes used in this project borrows from Monash University and are rewritten to incorporate into my project.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
