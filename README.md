@@ -14,9 +14,18 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#structure-of-the-app">Structure of the App</a>
       <ul>
-        <li><a href="#game-progression">Game Progression</a></li>
+        <li><a href="#main-page">Main Page</a></li>
+      </ul>
+      <ul>
+        <li><a href="#add-crops-page">Add Crops Page</a></li>
+      </ul>
+      <ul>
+        <li><a href="#add-locations-page">Add Locations Page</a></li>
+      </ul>
+      <ul>
+        <li><a href="#view-locations-page">View Locations Page</a></li>
       </ul>
     </li>
     <li><a href="#contribute">Contribute</a></li>
@@ -43,6 +52,8 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 * Internet connection
 * Browser support (Google Chrome, preferably)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ##  Structure of the App
 1. Main Page
 2. Add Crops Page
@@ -59,6 +70,8 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 * User is able to view a list of crops and locations.
 * Icon beside each location represents today's weather
 * Icon beside each crop represents the season for which the crop will be grown
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Add Crops Page
 
@@ -78,6 +91,8 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 * Then, tap the “ADD” button.
 * Desired crop will then be successfully added into app’s database and display in the list of crops on the main page.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Add Locations Page
 
 <p align = "center">
@@ -91,6 +106,8 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 * User is given the option to add a nickname to the selected location, for example: Home, upon tapping the "ADD" button.
 * Desired location will then be successfully added into app’s database and display in the list of locations on the main page.
 * Crops that are suitable to be planted on the specific day that fits the temperature range would also be indicated. 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### View Locations Page
 
@@ -106,6 +123,8 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 * User can set current date of location to any desired date by tapping on the "Calendar" icon.
 * Weather data and list of crops currently in season will be updated according to new date specified.
 * User is given the option to delete crops and locations from the app's database by simply clicking on the crop/location.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTE -->
 ## Contribute
