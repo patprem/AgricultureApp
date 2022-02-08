@@ -62,9 +62,9 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 4. View Locations Page
 
 APIs used:
-* Mapbox API: a client-side JavaScript library for building web maps and customize the map experience in your application (Mapbox GL JS).
-* Dark Sky API: to request weather forecast information such as temperature and climate for a given date and location (no longer available).
-* MapQuest's Geocoding API: to find a GPS coordinate (latitude and longitude) for the desired location and display this location on the map.
+* **Mapbox API**: a client-side JavaScript library for building web maps and customize the map experience in your application (Mapbox GL JS).
+* **Dark Sky API**: to request weather forecast information such as temperature and climate for a given date and location (no longer available).
+* **MapQuest's Geocoding API**: to find a GPS coordinate (latitude and longitude) for the desired location and display this location on the map.
 
 ### Main Page
 
