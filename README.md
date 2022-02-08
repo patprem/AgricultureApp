@@ -138,7 +138,7 @@ OR
 
 Just click on ``` Download ZIP ``` from Code tab on main page of this repo.
 
-* Open  ``` index.html ``` to play the game.
+* Open  ``` index.html ``` to use the app.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
