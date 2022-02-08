@@ -130,7 +130,7 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 <!-- INSTALLATION -->
 ## Installation
 
-* Open Windows Command Prompt or any other terminal window and clone repo:
+1. Open Windows Command Prompt or any other terminal window and clone repo:
 ``` sh
 https://github.com/patprem/AgricultureApp.git
 ```
@@ -138,7 +138,7 @@ OR
 
 Just click on ``` Download ZIP ``` from Code tab on main page of this repo.
 
-* Open  ``` index.html ``` to use the app.
+2. Open  ``` index.html ``` to use the app.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
