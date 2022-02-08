@@ -62,8 +62,8 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 4. View Locations Page
 
 APIs used:
-* Mapbox API: a client-side JavaScript library for building web maps and web applications with Mapbox's modern mapping technology.
-* Dark Sky API: to request forecast information for a given date and location (no longer available).
+* Mapbox API: a client-side JavaScript library for building web maps and customize the map experience in your application (Mapbox GL JS).
+* Dark Sky API: to request weather forecast information such as temperature and climate for a given date and location (no longer available).
 * MapQuest's Geocoding API: to find a GPS coordinate (latitude and longitude) for the desired location and display this location on the map.
 
 ### Main Page
@@ -108,7 +108,7 @@ APIs used:
 
 * Allows the user to add the desired location.
 * User must input the name of the suburb and country of the location to be added.
-* The map will pan to the desired location, displaying a marker and a pop-up text on top of the desired location, upon tapping the "PAN" button.
+* The map, built using **Mapbox API** will pan to the desired location, displaying a marker and a pop-up text on top of the desired location using **MapQuest's Geocoding API**, upon tapping the "PAN" button.
 * User is given the option to add a nickname to the selected location, for example: Home, upon tapping the "ADD" button.
 * Desired location will then be successfully added into app’s database and display in the list of locations on the main page.
 * Crops that are suitable to be planted on the specific day that fits the temperature range would also be indicated. 
@@ -121,7 +121,7 @@ APIs used:
   <img src="https://github.com/patprem/AgricultureApp/blob/f44d4e60767c5edef38c93fc8845dbd80393f0c5/images/fig4.png" width="450" height="400" />
 </p>
 
-* Current season, temperature range, weather, selected location for specific date and crops in season is displayed using Dark Sky API.
+* Current season, temperature range, weather, selected location for specific date and crops in season is displayed using **Dark Sky API**.
 * Drawer appears from left when tapped on menu on the right of header bar.
 * Allows user to:
   - Set date of location
