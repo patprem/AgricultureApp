@@ -28,6 +28,7 @@
         <li><a href="#view-locations-page">View Locations Page</a></li>
       </ul>
     </li>
+    <li><a href="#installtion">Installation</a></li>
     <li><a href="#contribute">Contribute</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a>
     
@@ -123,6 +124,21 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 * User can set current date of location to any desired date by tapping on the "Calendar" icon.
 * Weather data and list of crops currently in season will be updated according to new date specified.
 * User is given the option to delete crops and locations from the app's database by simply clicking on the crop/location.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- INSTALLATION -->
+## Installation
+
+* Open Windows Command Prompt or any other terminal window and clone repo:
+``` sh
+https://github.com/patprem/AgricultureApp.git
+```
+OR
+
+Just click on ``` Download ZIP ``` from Code tab on main page of this repo.
+
+* Open  ``` index.html ``` to play the game.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
