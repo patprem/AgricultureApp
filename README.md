@@ -28,7 +28,7 @@
         <li><a href="#view-locations-page">View Locations Page</a></li>
       </ul>
     </li>
-    <li><a href="#installtion">Installation</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#contribute">Contribute</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a>
     
