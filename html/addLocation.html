@@ -1,0 +1,103 @@
+<!--
+* Project: ENG1003 Assignment 2
+* Purpose: This file contains the layout of the add location page
+* Author: Zhen Yuen, Prathik, Jia Min, Yue Xin
+* Last Modified: 23 May 2019 by Zhen Yuen
+* Version : 1
+-->
+
+<!-- Feature 3.1 -->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Weather</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.brown-orange.min.css" />
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet'/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="shortcut icon" sizes="196x196" href="images/icon.png" />
+        <link rel="apple-touch-icon-precomposed" href="images/icon.png" />
+    </head>
+
+    <body class="background">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" style="width: 100%">
+
+            <header class="mdl-layout__header" >
+                <button onclick="location.href = 'index.html';" class="mdl-layout-icon mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">arrow_back</i>
+                </button>
+                <div class="mdl-layout__header-row">
+                    <span class="mdl-layout-title" id="headerBarTitle">Add Location</span>
+                </div>
+            </header>
+
+            <main class="mdl-layout__content mainLayout">
+
+                <!--   Main page content here:   -->
+                <p>
+                    <div class="containerBase">
+                        <div class="containerLayer">
+                            <p>
+                                <!-- Textfield with Floating Label -->
+                                <form action="#">
+                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" id="addLocationSuburbValue" >
+                                    <label class="mdl-textfield__label" for="sample3" style="color: #000000">Suburb :</label>
+                                  </div>
+                                </form>
+
+                                <form action="#">
+                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input class="mdl-textfield__input" type="text" id="addLocationCountryValue">
+                                    <label class="mdl-textfield__label" for="sample3" style="color: #000000">Country :</label>
+                                  </div>
+                                </form>
+                            </p>
+                        </div>
+                    </div>
+
+                    <br/>
+
+                     <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
+                         <div id="map" style="width: 100%; height: 250px;"></div>
+                     </div>
+              </p>
+
+              <div class="content-grid mdl-grid">
+                  <div class="mdl-cell" style="width: 100%">
+                      <div class="mdl-grid">
+                          <div class="mdl-cell mdl-cell--4-col mdl-cell--2-col-phone"></div>
+
+                          <div class="mdl-cell mdl-cell--4-col mdl-cell--1-col-phone">
+                              <!-- Accent-colored raised button with ripple -->
+                              <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="getLocation();">
+                                  Pan
+                              </button>
+                          </div>
+
+                          <div class="mdl-cell mdl-cell--4-col mdl-cell--1-col-phone">
+                              <!-- Accent-colored raised button with ripple -->
+                              <button id = "addButton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="addLocation();" disabled="true">
+                                  Add
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </main>
+
+            </div>
+
+        <!--   JavaScript files:   -->
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+        <script src="js/dateExtensions.js"></script>
+        <script src="js/shared.js"></script>
+        <script src="js/addLocationPage.js"></script>
+    </body>
+</html>

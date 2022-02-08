@@ -1,0 +1,122 @@
+<!--
+* Project: ENG1003 Assignment 2
+* Purpose: This file contains the layout of the add crop page
+* Author: Zhen Yuen, Prathik, Jia Min, Yue Xin
+* Last Modified: 23 May 2019 by Zhen Yuen
+* Version : 1
+-->
+
+<!-- Feature 2.1 -->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Weather</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.brown-orange.min.css" />
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="shortcut icon" sizes="196x196" href="images/icon.png" />
+        <link rel="apple-touch-icon-precomposed" href="images/icon.png" />
+    </head>
+
+    <body class = "background" >
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <header class="mdl-layout__header">
+              <button onclick="location.href = 'index.html';" class="mdl-layout-icon mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">arrow_back</i>
+              </button>
+            <div class="mdl-layout__header-row">
+              <span class="mdl-layout-title" id="headerBarTitle">Add Crop</span>
+            </div>
+          </header>
+
+          <main class="mdl-layout__content mainLayout" style = "padding: 12px">
+
+              <!--   Main page content here:   -->
+              <div class="containerBase" style= "padding-top: 12px">
+                  <div class="containerLayer">
+                      <p>
+                          <br>
+
+                          <!-- Make a list of seasons for user to select from -->
+                          <span>
+                              <span style="font-family: Roboto; font-size: 14px; color: #cfd8dc">Select Season:</span>
+                              <select name="Select Season" style="width: 100%; background-color: #000000; color: #808080; height : 40px" id = "addCropSeasonValue">
+                                  <option value="Spring"selected>Spring</option>
+                                  <option value="Summer">Summer</option>
+                                  <option value="Autumn">Autumn</option>
+                                  <option value="Winter">Winter</option>
+                              </select>
+                          </span>
+
+                          <!-- Textfield with Floating Label -->
+                          <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              <input class="mdl-textfield__input" type="text" id="addCropNameValue">
+                              <label class="mdl-textfield__label" for="sample3">Crop name</label>
+                            </div>
+                          </form>
+
+                          <!-- Numeric Textfield with Floating Label -->
+                          <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="addCropMinSafeTempRangeValue">
+                              <label class="mdl-textfield__label" for="sample4">Minimum safe temperature for crop</label>
+                              <span class="mdl-textfield__error">Input is not a number!</span>
+                            </div>
+                          </form>
+
+                          <!-- Numeric Textfield with Floating Label -->
+                          <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="addCropMaxSafeTempRangeValue">
+                              <label class="mdl-textfield__label" for="sample4">Maximum safe temperature for crop</label>
+                              <span class="mdl-textfield__error">Input is not a number!</span>
+                            </div>
+                          </form>
+
+                          <!-- Numeric Textfield with Floating Label -->
+                          <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="addCropLowYieldOffsetValue">
+                              <label class="mdl-textfield__label" for="sample4">Offset value for low yield of crop</label>
+                              <span class="mdl-textfield__error">Input is not a number!</span>
+                            </div>
+                          </form>
+
+                          <!-- Numeric Textfield with Floating Label -->
+                          <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="addCropToleranceValue">
+                              <label class="mdl-textfield__label" for="sample4">Tolerance of crop in days</label>
+                              <span class="mdl-textfield__error">Input is not a number!</span>
+                            </div>
+                          </form>
+
+                        <br>
+                      </p>
+                  </div>
+              </div><br>
+
+              <div style="float: right">
+                  <!-- Accent-colored raised button with ripple -->
+                  <button id = "addButton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="saveCrop();">
+                      Add
+                  </button>
+              </div>
+
+          </main>
+        </div>
+
+        <!--   JavaScript files:   -->
+        <script src="js/dateExtensions.js"></script>
+        <script src="js/shared.js"></script>
+        <script src="js/addCropPage.js"></script>
+    </body>
+</html>
