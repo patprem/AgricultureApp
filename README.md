@@ -38,14 +38,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A proof-of-concept app that utilizes existing location mapping and weather forecasting services, to present the user with historical temperature data and assist with their decisions in growing sustainable crops. This app is built using HTML, CSS, JavaScript and APIs such as [Mapbox API](https://docs.mapbox.com/api/overview/), Dark Sky API and [MapQuest's Geocoding API](https://developer.mapquest.com/documentation/geocoding-api/).
+A proof-of-concept app that utilizes existing location mapping and weather forecasting services, to present the user with historical temperature data and assist with their decisions in growing sustainable crops. This app is built using HTML, CSS, JavaScript and few APIs: [Mapbox API](https://docs.mapbox.com/api/overview/), [Dark Sky API](https://blog.darksky.net/) and [MapQuest's Geocoding API](https://developer.mapquest.com/documentation/geocoding-api/).
 
 ### Why is this app important?
 * Assist farmers with preparation for water shortages, parasites, and other factors, such as adverse effects of climate changes, affecting the quality of their crops.
 * Assist farmers with their decisions in growing sustainable crops based on recent temperature readings.
 * Hassle-free for farmers as they do not need to move between different locations to find out where to cultivate their crops.
 * Predict effect of weather on crops (yield and tolerance).
-* Obtain weather information for all locations, ranging from today up to 365 days in the past using Mapbox API.
+* Obtain weather information for all locations, ranging from today up to 365 days in the past using Dark Sky API.
 * Store any desired crops and locations.
 
 ### Prerequisites
@@ -60,6 +60,11 @@ A proof-of-concept app that utilizes existing location mapping and weather forec
 2. Add Crops Page
 3. Add Locations Page
 4. View Locations Page
+
+APIs used:
+* Mapbox API: a client-side JavaScript library for building web maps and web applications with Mapbox's modern mapping technology.
+* Dark Sky API: to request forecast information for a given date and location (no longer available).
+* MapQuest's Geocoding API: to find a GPS coordinate (latitude and longitude) for the desired location and display this location on the map.
 
 ### Main Page
 
