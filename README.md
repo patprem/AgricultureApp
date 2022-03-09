@@ -137,7 +137,7 @@ APIs used:
 
 1. Open Windows Command Prompt or any other terminal window and clone repo:
 ``` sh
-!git clone https://github.com/patprem/AgricultureApp.git
+git clone https://github.com/patprem/AgricultureApp.git
 ```
 OR
 
